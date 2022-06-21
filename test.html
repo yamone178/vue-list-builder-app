@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let lists = [
+        {
+            id:1,
+            job:"To Sleep",
+            isFinish:true
+        },
+        {
+            id:2,
+            job:"To Eat",
+            isFinish:false
+        },
+        {
+            id:3,
+            job:"To Read Books",
+            isFinish:true
+        },
+        {
+            id:4,
+            job:"To attend MMS IT",
+            isFinish:false
+        },
+    ];
+
+    let x = lists.find(list => list.isFinish === true )
+    console.log(x)
+</script>
+</body>
+</html>
